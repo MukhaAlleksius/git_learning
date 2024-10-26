@@ -7,3 +7,7 @@ class Calculator:
 
     def print_last_res(self):
         print(self.last_res)
+
+    def minus(self, n1, n2):
+        self.last_res = n1 - n2
+        return self.last_res
